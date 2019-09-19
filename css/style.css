@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body{
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+  background-image: url("../images/pidgeon-background.jpg");
+  background-color: #dddddd;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main{
+  padding-bottom: 100px;
+  padding-left: 15px;
+}
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+  padding-left: 15px;
+}
+
+a{
+  font-size: 18px;
+  color: #c12258;
+  text-decoration: underline;
+}
+
+:focus{
+  border: 1px solid red;
+}
+
+table{
+  border-collapse: separate;
+  border-spacing: 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.colhead{
+  min-width: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+
+th,td{
+  text-align: center;
+  border-top: 2px solid black;
+  padding:15px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+tr:hover{
+  background-color:#fab9cf;
+}
+
+tr:first-child th.colhead:last-child {
+    border-top-right-radius: 10px;
+}
+
+tr:first-child th.colhead:first-child {
+    border-top-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+tr:last-child th.rowhead:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-height: 60px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
